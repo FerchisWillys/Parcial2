@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EJE 1"/>
+        <attribute name="authors" value="ferch"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 02:14:48 p. m."/>
+        <attribute name="created" value="ZmVyY2g7RkVSQ0hJUzsyMDI1LTAzLTI2OzAyOjExOjIzIHAuIG0uOzI0OTc="/>
+        <attribute name="edited" value="ZmVyY2g7RkVSQ0hJUzsyMDI1LTAzLTI2OzAyOjE0OjQ4IHAuIG0uOzE7MjYxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calificacion" type="Integer" array="False" size=""/>
+            <assign variable="calificacion" expression="0"/>
+            <input variable="calificacion"/>
+            <if expression="calificacion&gt;6">
+                <then>
+                    <output expression="&quot;(APROBADO)&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;(REPROBADO)&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

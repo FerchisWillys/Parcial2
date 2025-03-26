@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EJER 2"/>
+        <attribute name="authors" value="ferch"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-25 05:47:57 p. m."/>
+        <attribute name="created" value="ZmVyY2g7RkVSQ0hJUzsyMDI1LTAzLTI1OzA1OjQ1OjE4IHAuIG0uOzI1MTA="/>
+        <attribute name="edited" value="ZmVyY2g7RkVSQ0hJUzsyMDI1LTAzLTI1OzA1OjQ3OjU3IHAuIG0uOzE7MjYyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <input variable="n"/>
+            <if expression="n%2==0">
+                <then>
+                    <output expression="&quot;(PAR)&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;(IMPAR)&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
